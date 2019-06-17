@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main(){
+float mesai;
+float ucret;
+
+printf("lutfen mesai saatinizi giriniz:");
+scanf("%f",&mesai);
+
+
+if (mesai<=10)
+{
+ucret=mesai*5;
+printf("Alacaginiz ucret:%f",ucret);
+}
+
+
+else if(mesai>10 && mesai<=20)
+{
+ucret=50+(mesai-10)*3;
+printf("Alacaginiz ucret:%f",ucret);
+}
+
+else
+{
+
+ucret=80+(mesai-20)*2;
+printf("Alcaginiz ucret:%f",ucret);
+}
+return 0;
